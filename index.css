@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600&display=swap');
+body{
+    background-color: midnightblue;
+    margin: 0;
+    padding: 0;
+}
+.back{
+    width: 1200px;
+    height: 650px;
+    overflow: hidden;
+    top: 1%;
+    left: 0;
+    transform: translate(15%,1%);
+    position: absolute;
+    border-radius: 20px;
+	
+}
+.girl{
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 255px;
+    margin-left: 950px;
+    animation: girl 8s ease-in-out infinite;
+}
+@keyframes girl {
+    20%, 40%, 60%, 80%, 100%{
+        transform-origin: top center;
+    }
+    20%{
+       transform: rotate(15deg);
+    }
+    40%{
+        transform: rotate(-10deg);
+    }
+    60%{
+        transform: rotate(5deg);
+    }
+    80%{
+        transform: rotate(-5deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+@keyframes love {
+    20%, 40%, 60%, 80%, 100%{
+        transform-origin: top center;
+    }
+    20%{
+       transform: rotate(7deg);
+    }
+    40%{
+        transform: rotate(-5deg);
+    }
+    60%{
+        transform: rotate(3deg);
+    }
+    80%{
+        transform: rotate(-2deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+.lo2{
+    width: auto;
+    height: 400px;
+    overflow: hidden;
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 800px;
+    animation: love 8s ease-in-out infinite; 
+    animation-delay: -0.5s;
+}
+
+
+.a2{
+    width: auto;
+    height: 450px;
+    overflow: hidden;
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 220px;
+    animation: love 8s ease-in-out infinite; 
+    animation-delay: -1.2s;
+}
+
+
+.Wejden1{
+    width: auto;
+    height: 400px;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 1300px;
+    animation: love 8s ease-in-out infinite; 
+    animation-delay: 0.5s;
+}
+
+
+.a3{
+    width: auto;
+    height: 400px;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 790px;
+    animation: love 8s ease-in-out infinite; 
+    animation-delay: 0.5s;
+}
+
+
+.Wejden9{
+    width: auto;
+    height: 400px;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 900px;
+    animation: love 8s ease-in-out infinite; 
+    animation-delay: 0.5s;
+}
+
+
+
+.g{
+    width: auto;
+    height: 400px;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 1000px;
+    animation: love 8s ease-in-out infinite; 
+    animation-delay: 0.5s;
+}
+
+
+
+.Wejden99{
+    width: auto;
+    height: 400px;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 1100px;
+    animation: love 8s ease-in-out infinite; 
+    animation-delay: 0.5s;
+}
+
+
+
+.r2{
+    width: auto;
+    height: 400px;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 1200px;
+    animation: love 8s ease-in-out infinite; 
+    animation-delay: 0.5s;
+}
+
+
+
+
+.Wejden3{
+    width: auto;
+    height: 200px;
+    overflow: hidden;
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 700px;
+    animation: love 8s ease-in-out infinite; 
+    animation-delay: -0.5s;
+}
+
+
+.y{
+    width: auto;
+    height: 400px;
+    overflow: hidden;
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 1000px;
+    animation: love 8s ease-in-out infinite; 
+    animation-delay: 0.5s;
+}
+
+
+/*.Wejden5{
+    width: auto;
+    height: 400px;
+    overflow: hidden;
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 1300px;
+    animation: love 8s ease-in-out infinite; 
+    animation-delay: 1s;
+}*/
+
+
+.r1{
+    width: auto;
+    height: 400px;
+    overflow: hidden;
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 900px;
+    animation: love 8s ease-in-out infinite; 
+    animation-delay: 1s;
+}
+
+
+
+
+
+
+/*.Wejden8{
+    width: auto;
+    height: 400px;
+    overflow: hidden;
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 1200px;
+    animation: love 8s ease-in-out infinite; 
+    animation-delay: -0.5s;
+}*/
+
+
+
+.Wejden2{
+    width: auto;
+    height: 450px;
+    overflow: hidden;
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 650px;
+    animation: love 8s ease-in-out infinite; 
+    animation-delay: 0.5s;
+}
+
+	
+.h{
+    width: auto;
+    height: 360px;
+    overflow: hidden;
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 320px;
+    animation: love 8s ease-in-out infinite; 
+    animation-delay: -1s;
+}
+.lo1{
+    width: auto;
+    height: 360px;
+    overflow: hidden;
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 400px;
+    animation: love 8s ease-in-out infinite; 
+    animation-delay: 0.5s;
+}
+.a1{
+    width: auto;
+    height: 360px;
+    overflow: hidden;
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 450px;
+    animation: love 8s ease-in-out infinite; 
+    animation-delay: -0.5s;
+}
+/*.lo4{
+    width: auto;
+    height: 360px;
+    overflow: hidden;
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 520px;
+    animation: love 8s ease-in-out infinite; 
+    animation-delay: 1s;
+}*/
+.love1{
+    width: 90px;
+    height: auto;
+    overflow: hidden;
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 270px;
+    animation: love 8s ease-in-out infinite; 
+    animation-delay: -1.2s;
+}
+.love2{
+    width: 90px;
+    height: auto;
+    overflow: hidden;
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 380px;
+    animation: love 8s ease-in-out infinite; 
+    animation-delay: -0.2s;
+}
+.love3{
+    width: 90px;
+    height: auto;
+    overflow: hidden;
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 480px;
+    animation: love 8s ease-in-out infinite; 
+    animation-delay: 1.2s;
+}
+
+.love4{
+    width: 90px;
+    height: auto;
+    overflow: hidden;
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 950px;
+    animation: love 8s ease-in-out infinite; 
+    animation-delay: 1.2s;
+}
+
+
+.love5{
+    width: 90px;
+    height: 200px;
+    overflow: hidden;
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 1150px;
+    animation: love 8s ease-in-out infinite; 
+    animation-delay: -1s;
+}
+
+
+.boy{
+    width: 470px;
+    height: 400px;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 550px;
+}
+.ballon{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 320px;
+    margin-left: 675px;
+    animation: ballon 4s ease-in-out infinite; 
+}
+@keyframes ballon {
+     50%, 100%{
+        transform-origin: bottom center;
+    }
+    0%{
+        transform: rotate(0deg);
+    }
+    
+    40%{
+        transform: rotate(-5deg);
+    }
+    
+    80%{
+        transform: rotate(5deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+@media (max-width: 1118px){
+
+}
+@media (max-width: 1118px){
+    
+}
+@media (max-width: 860PX){
+       body{
+           transform: rotate(90deg) scale(0.47);
+           margin-top: -10px;
+           margin-left: 340px;
+       }
+}
+
+
+.heart-btn{
+  position: absolute;
+  bottom: 400px;
+  left: 6%;
+  transform: translate(-50%,-50%);
+}
+.content{
+  padding: 13px 16px;
+  display: flex;
+  border: 2px solid #eae2e1;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.content.heart-active{
+  border-color: #f9b9c4;
+  background: #fbd0d8;
+}
+.heart{
+  position: absolute;
+  background: url("img.png") no-repeat;
+  background-position: left;
+  background-size: 2900%;
+  height: 90px;
+  width: 90px;
+  top: 50%;
+  left: 21%;
+  transform: translate(-50%,-50%);
+}
+.text{
+  font-size: 21px;
+  margin-left: 30px;
+  color: grey;
+  font-family: 'Montserrat',sans-serif;
+}
+.numb:before{
+  content: '0';
+  font-size: 21px;
+  margin-left: 7px;
+  font-weight: 600;
+  color: #9C9496;
+  font-family: sans-serif;
+}
+.numb.heart-active:before{
+  content: '1';
+  color: #000;
+}
+.text.heart-active{
+  color: #000;
+}
+.heart.heart-active{
+  animation: animate .8s steps(28) 1;
+  background-position: right;
+}
+@keyframes animate {
+  0%{
+    background-position: left;
+  }
+  100%{
+    background-position: right;
+  }
+}
